@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title></title>
+ <style type="text/css">
+  ...
+</style>
+<script>
+ function submit(){
+   var userName = document.getElementById('fName');
+   document.getElementById("display").innerHTML = document.getElementById('fName').value;
+   alert(userPass.value);
+ }
+</script>
+</head>
+<body>
+  <table id="login">
+    <tr>
+      <td><label>User Name</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input class="textBox" id="fName" type="text" maxlength="30"    required/></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="loginButtons" value="Login" onclick="submit();"/>
+        <input type="button" class="loginButtons" value="Cancel"/></td>
+      </table>
+
+      <p id="display"></p>
+    </body>
+    </html>

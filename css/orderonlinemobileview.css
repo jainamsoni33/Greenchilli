@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+  input[type=textbox] {
+    width: 140%;
+    padding: 0px;
+    margin: 8px 0;
+    background-color: transparent;
+    color:white;
+    font-family: raleway;
+    font-weight:40px;
+    font-size: 14px;
+    border:none;
+    
+}
+input[type=textarea] {
+    width: 200%;
+    padding: 0px;
+    margin: 8px 0;
+    background-color: transparent; 
+    color:#fed136;
+    border:none;   
+  font-size:8px;
+
+}
+#tableWrapper
+{
+   background-color: rgba(0,0,0,0.6);  
+}
+body{
+    font-size: raleway;
+    
+}
+.category{
+    display: flex;
+    justify-content: center;
+    line-height: 2px;
+    font-family: raleway;  
+    margin:4px;
+    min-width:width:500px;
+    font-weight: 900;
+    font-size:15px;
+    color:black;
+    height: 40px;
+    padding:20px 0px 10px 0px;   
+}
+.category:hover{
+    background-color: #fed136;
+    text-decoration: none;
+}
+
+p
+{
+    color:#fed136;
+    padding-top:10px;
+    padding-left: 7px;
+}
+h4
+{
+    padding-left: 10px;
+}
+#descriptionTable{
+    height:550px;
+     background-color: rgba(0,0,0,0.8);
+    overflow-y: auto;
+}
+row{
+    text-align: center;
+}
+#qty_plus {
+    width: 25px;
+    height: 25px;
+    position: inherit !important;
+    left: 0;
+    top: 0;
+    visibility: visible !important;
+    border: 1px solid #cfd9db;
+    border-radius: 16px;
+    font-size: 11px;
+    margin:0px;
+    padding: 0px;
+    background: black;
+}
+#page_content_wrapper img, .page_content_wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+input[type=text] {
+    margin: 8px 0;
+    color:black;
+    
+}
+hr
+{
+    margin:0px;
+}
+#displayitem
+        {
+            font-size:20px;
+            color:firebrick;
+            font-weight: 30px;
+        
+        }
+
+a.hover
+{
+    color:#fed136;
+  
+}
+    label
+    {
+        color:red;
+    }
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #fed136;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 90px;
+    font-size: 14px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
